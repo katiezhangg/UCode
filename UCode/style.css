@@ -1,0 +1,103 @@
+/* FONT FACE RULES */
+
+@font-face {
+    font-family: "articulat-demi";
+    src: url(font/ArticulatCF-DemiBold_C.otf);
+}
+
+@font-face {
+    font-family:"articulat-bold";
+    src: url(font/ArticulatCF-ExtraBold_C.otf);
+}
+
+
+body#splashPage {
+    background-color: #18256c;
+    width: 100%;
+    height: 100%;
+}
+
+div#centerContainer {
+    display: inline-block;
+    align-content: center;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.h3text {
+    font-family: "articulat-demi";
+    color: white;
+    font-size: 2vw;
+
+}
+
+.h4text {
+    font-family: "articulat-demi";
+    color: #ff6b00;
+    font-size: 3vw;
+}
+
+.h5text {
+    font-family: "articulat-demi";
+    color: #ff6b00;
+    font-size: 3vw;
+}
+
+.contacttext {
+    font-family: "articulat-demi";
+    color: white;
+}
+
+a {
+    color: white;
+
+}
+
+
+/*  MEDIA BREAKPOINTS */
+
+@media screen and (min-width: 320px) and (max-width: 766px) {
+
+    .logo {
+        width: 60%;
+        margin-top: 5%;
+        margin-top: 20%;
+    }
+    
+    .text-align {
+        text-align: center;
+    }
+    
+    .h3text {
+        font-family: "articulat-demi";
+        color: white;
+        font-size: 7vw;
+    
+    }
+    
+    .h4text {
+        font-family: "articulat-demi";
+        color: #ff6b00;
+        font-size: 7vw;
+    }
+    
+    .h5text {
+        font-family: "articulat-demi";
+        color: #ff6b00;
+        font-size: 6vw;
+    }
+    
+    .contacttext {
+        font-family: "articulat-demi";
+        color: white;
+    }
+
+
+}
