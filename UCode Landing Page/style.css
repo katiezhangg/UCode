@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #191f6c;
+}
+
+.phone-number {
+    color: white;
+    
+}
+
+
+/* IMAGE */
+
+.image-container {
+    background-image: url(assets/images/UCode-5.jpg);
+    height: 570px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.winter-jumbo {
+    margin-top: 7%;
+}
+
+
+#winterText {
+    color: white;
+}
+
+.btn-sign-up {
+    border-radius: 30px;
+    color: white;
+    background-color: #ff6b00;
+    width: 150px;
+}
+
+/* GREY SPACE */
+
+.grey-container {
+    background-color: #dcdcdc;
+    height: 500px;
+}
+
+.grey-row {
+    height: 800px;
+}
+
+.white-block {
+    background-color: white;
+    width: 85%;
+    height: ;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.python-block {
+    width: 65%;
+    height: 120%;
+}
+
+.orange-block {
+    width: 700px;
+    height: 120px;
+    background-color: #ff6b00;
+
+}
+
+.text-block {
+    text-align: justify;
+
+}

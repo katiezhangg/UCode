@@ -23,8 +23,8 @@ div#centerContainer {
 }
 
 .logo {
-    width: 30%;
-    margin-top: 5%;
+    width: 40%;
+    margin-top: 0;
 }
 
 .text-align {
@@ -35,6 +35,7 @@ div#centerContainer {
     font-family: "articulat-demi";
     color: white;
     font-size: 2vw;
+    font-style: italic;
 
 }
 
