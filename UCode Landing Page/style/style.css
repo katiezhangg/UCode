@@ -1,0 +1,581 @@
+body{
+    font-family: OpenSans-Regular;
+}
+
+/* KATIES CSS */
+
+.btn-register-now {
+    background-color: #FF6B00;
+    border-radius: 35px;
+    color: white;
+}
+
+.email-link {
+    color: white;
+    font-family: OpenSans-Bold;
+}
+
+
+
+
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url('./fonts/OpenSans/OpenSans-Regular.ttf');
+  }
+  
+  @font-face{
+    font-family: OpenSans-SemiBold;
+    src: url('./fonts/OpenSans/OpenSans-SemiBold.ttf');
+  }
+  
+  @font-face{
+    font-family: OpenSans-Bold;
+    src: url('./fonts/OpenSans/OpenSans-Bold.ttf');
+  }
+
+.navbar{
+    background-color: #181F6C; 
+}
+
+.navbar .row{
+    flex-grow: 1;
+}
+
+.navbar-brand img{
+    height: 100%;
+    width: auto;
+}
+
+.call-button-container{
+    padding-top: 10px;
+}
+
+.call-button{
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;    
+}
+
+.call-button:hover{
+    color: #FF6B00;
+}
+
+.top-container{
+    padding-top: 62px;
+    height: 527px;
+}
+
+.top-title{
+    margin-top: 142px;
+    font-family: OpenSans-Bold;
+    font-size: 40px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.top-cta button{
+    background: #FF6B00;
+    -webkit-box-shadow: 0px 0px 4px 1px #B94E00;
+    -moz-box-shadow: 0px 0px 4px 1px #B94E00;
+    box-shadow: 0px 0px 4px 1px #B94E00;    border-radius: 26px;
+    width: 272px;
+    height: 52px;
+    font-family: Verdana-Bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.top-cta button:hover {
+    color: black;
+}
+
+.shield-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: url(../assets/icons/Python_Logo_Main.svg);
+    height: 393px;
+    width: auto;
+}
+
+.image-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 527px;
+}
+
+
+.image-container.intro-python{
+    background-image: url(../assets/images/UCode-5.jpg);
+}
+
+
+.image-container.feature-image{
+    background-image: url(../assets/images/UCode-15.jpg);
+    height: 727px;
+}
+
+
+.camp-container{
+    padding: 40px 0px;
+    background-color: #ECEBED;
+}
+
+.camp-column.overlap{
+    margin-top: -70px;
+}
+
+.camp-column.spaceout{
+    margin-top: 50px;
+}
+
+.camp-column > .row{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 19px 1px rgba(125,125,125,0.5);
+    -moz-box-shadow: 0px 0px 19px 1px rgba(125,125,125,0.5);
+    box-shadow: 0px 0px 19px 1px rgba(125,125,125,0.5);
+}
+
+
+.camp-title-container{
+    height: 150px;
+    padding: 40px 20px 20px 40px;
+    background-color: #FF6B00;
+}
+
+.camp-title{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.camp-title.primary{
+    font-family: OpenSans-Bold;
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+
+.camp-title.secondary{
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+}
+
+.camp-info-container{
+    height: 150px;
+    padding: 40px 20px 20px 40px;
+    background-color: #ECEBED;
+}
+
+.camp-info-container .info-title{
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: right;
+    color: #4a4a4a;
+}
+
+.camp-info-container .info-text{
+    font-family: OpenSans-Bold;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.camp-info-container .info-note{
+    font-family: OpenSans-Bold;
+    text-align: center;
+    font-style: italic;
+    color: rgba(74, 74, 74,0.7);
+    padding-top: 20px;
+}
+
+.camps-intro, .camp-summary{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 22px !important;
+    color: #4a4a4a;
+}
+
+.camp-timeloc-title, .register-title{
+    font-family: OpenSans-Bold;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FF6B00;
+    padding-bottom: 25px;
+}
+
+.header-row th{
+    background: #292C69;
+    color:#FFFFFF;
+    font-family: OpenSans-Bold;
+    text-align: center;
+  }
+
+.header-row th img{
+    height: 15px;
+    width: 16px;
+    margin: -5px 5px 0px 0px;
+}
+
+  .sch-table-body .row td{
+    font-family: OpenSans-Regular;
+    text-align: center;
+  }
+
+  .td-date{
+    font-family: OpenSans-Bold;
+    text-align: center;
+  }
+
+.section{
+    padding: 40px 0px 40px 0px;
+}
+
+.section.light{
+    background-color: #FFFFFF;
+}
+
+.section.dark{
+    background-color: #ECEBED;
+}
+
+.section-title{
+    font-family: OpenSans-Bold;
+    text-align: center;
+    font-size: 22px;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.section-title.secondary{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+}
+
+.info-card{
+    padding: 30px 10px 30px 10px;
+    margin: 20px 5px 20px 5px;
+}
+
+.info-card.dark{
+    background-color:#ECEBED;
+    border: 1px solid #ECEBED;
+}
+
+.info-card.light{
+    background-color:#FFFFFF;
+    border: 1px solid #DDDDDD;
+}
+
+.info-card.clear{
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.info-card .title{
+    font-family: OpenSans-Bold;
+    text-align: center;
+    font-size: 14px;
+    color: #FF6B00;
+}
+
+.info-card .title.big{
+    text-align: left;
+    font-size: 22px;
+}
+
+.info-card .content{
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    text-align: justify;
+    line-height: 18px;
+    padding: 5px;
+}
+
+.info-card .content.center{
+    text-align: center;
+}
+
+.info-card .content.center.bold{
+    margin-top: 30px;
+    font-family: OpenSans-Bold;
+}
+
+.testimonial-img{
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    margin-top: -112px;
+}
+
+.three-features, .prep-future{
+    margin-top: 40px;
+}
+
+.three-features .image-block{
+    width: 48px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.three-features .text-block{
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+  .register-container{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  .step-container{
+    padding: 20px 20px;
+    text-align: justify;
+  }
+
+  .step-container b{
+      font-family: OpenSans-Bold;
+  }
+
+  .para-signup{
+      text-align: center;
+      font-family: OpenSans-Bold;
+      padding-top: 30px;
+  }
+
+  a.teamup-link{
+    color:#FF6B00 !important;
+    font-family:OpenSans-Bold;
+    font-size:18px;
+  }
+
+  .footer-container{
+      background-color: #292C69;
+      padding: 40px;
+  }
+
+  .footer-container img.logo{
+      height: 46px;
+      width: auto;
+  }
+
+  .location{
+    font-family: OpenSans-Bold;
+    font-size: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 20px 20px 4px 20px;
+  }
+
+  .address{
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    padding: 0px 20px 8px 20px;
+  }
+
+  .copyright{
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    color: rgba(255, 255, 255,0.6);
+    letter-spacing: 0;
+    padding-top: 40px;
+  }
+
+
+/*Mobile devices*/
+@media (max-width:765px){
+
+    /* Bug Fix for Zoomed in pages and parasite horizontal scroll*/
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+
+    .blurb-col {
+        margin-top: 60%;
+        margin-left: 0;
+    }
+
+    .camp-summary {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .camp-container{
+        padding: 0px 0px 40px 0px;
+    }
+
+    .camp-info-container {
+        height: 170px;
+    }
+
+    .camp-column{
+        padding: 0px;
+    }
+
+    .camp-column > .row{
+        padding-top: 0px;
+    }
+
+    .camp-column.overlap{
+        margin-top: 0px;
+    }
+
+    .camp-title-container{
+        height: 120px;
+        padding: 20px;
+    }
+
+    .camp-title.primary{
+        font-size: 22px;
+    }
+
+    .camp-info-container{
+        padding: 20px 0px 20px 0px;
+    }
+
+    .info-title{
+        text-align: center;
+    }
+
+    .camp-info-container .info-title
+    {
+        font-size: 13px;
+        text-align: center;
+    }
+    .camp-info-container .info-text{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .camp-info-container .info-note{
+        font-size: 13px;
+    }
+
+    .register-container{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .step-container{
+        padding: 20px 0px;
+    }
+
+    .footer-container{
+        padding: 20px 0px;
+    }
+
+    .copyright{
+        padding-top: 0px;
+    }
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+
+    .navbar .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .call-button a{
+        float: right;
+    }
+
+    .image-container.intro-python{
+        height: 627px;
+    }
+
+    .image-container.feature-image{
+        background-image: url(../assets/images/UCode-15.jpg);
+        height: 227px;
+    }
+
+    .shield-img{
+        height: 305px;
+    }
+    
+    .top-title{
+        margin-top: 40px;
+        font-size: 3rem;
+        text-align: left;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .info-card{
+        margin-bottom: 0px;
+    }
+
+}
+
+/*Tablets*/
+@media (min-width:765.8px) and (max-width:1020px){
+    /* Bug Fix for Zoomed in pages and parasite horizontal scroll*/
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+
+  .camp-info-container{
+      padding: 40px 0px 0px 0px;
+  }
+
+  .camp-info-container .info-title, .camp-info-container .info-text{
+    text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+
+    .top-title{
+        margin-top: 80px;
+    }
+
+    .shield-img{
+        height: 237px;
+    }
+
+    .image-container.feature-image{
+        background-image: url(../assets/images/UCode-15.jpg);
+        height: 427px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px){
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+      
+    .shield-img{
+        height: 413px;
+    }
+}
